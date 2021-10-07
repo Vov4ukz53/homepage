@@ -20,24 +20,12 @@ body {
 	margin: 0 auto;
 }
 
-.image {
-	max-width: 250px;
-	border-radius: 20px;
-	box-shadow: 2px 1px 15px 0px #ffffff;
-	object-fit: cover;
-}
-
 .title {
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 1.2px;
 	margin: 0px 0px 40px 0px;
-}
-
-.text {
-	line-height: 1.2;
-	text-shadow: 1px 1px 3px #fff;
 }
 
 .myColor {
@@ -184,6 +172,18 @@ body {
 	padding: 0 30px;
 }
 
+.section2__image{
+	max-width: 250px;
+	border-radius: 20px;
+	box-shadow: 2px 1px 15px 0px #ffffff;
+	object-fit: cover;
+}
+
+.section2__text{
+	line-height: 1.2;
+	text-shadow: 1px 1px 3px #fff;
+}
+
 .section2__button {
 	height: 40px;
 	border: none;
@@ -225,7 +225,14 @@ body {
 }
 
 .section3__image {
-	box-shadow: 3px 3px 5px rgb(78, 63, 63);
+	max-width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+	box-shadow: 3px 3px 5px #4e3f3f;
+}
+
+.section3__text{
+	line-height: 1.2;
 }
 
 .about {
@@ -236,14 +243,11 @@ body {
 	overflow-x: auto;
 }
 
-.about__table {
-	margin: 0 auto;
-	text-align: center;
-}
-
 .table {
 	border-collapse: collapse;
 	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .table__cell {
@@ -277,14 +281,12 @@ body {
 	color: #fff;
 	text-align: center;
 	margin-top: 100px;
-}
-
-.footer__copyright {
 	letter-spacing: 2px;
 	line-height: 20px;
-	margin: 0;
+	margin-top: 100px;
 	padding: 20px;
 }
+
 
 @media (max-width: 767px) {
 	.header__body {
