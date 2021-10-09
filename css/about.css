@@ -1,0 +1,46 @@
+.about {
+	margin-top: 50px;
+}
+
+.about__tableBody {
+	overflow-x: auto;
+}
+
+.table {
+	border-collapse: collapse;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.table__cell {
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
+.table__cell--header {
+	background-color: #8d2847;
+	color: #fff;
+}
+
+.table__cell--name {
+	background-color: #ca194e;
+	color: #fff;
+}
+
+.table__row {
+	background-color: #ccbbbb;
+	font-weight: 600;
+	transition: background-color 0.3s;
+}
+
+.table__row:hover {
+	background-color: #f0eaea;
+}
+
+@media (max-width: 767px) {
+	.about {
+		margin-top: 0;
+	}
+}

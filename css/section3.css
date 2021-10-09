@@ -1,0 +1,40 @@
+.section3 {
+	padding-top: 40px;
+}
+
+.section3__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -40px;
+	justify-content: center;
+}
+
+.section3__column {
+	padding: 0 40px 20px 40px;
+}
+
+.section3__image {
+	max-width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+	box-shadow: 3px 3px 5px #4e3f3f;
+}
+
+.section3__text {
+	line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+	.section3 {
+		padding-top: 0;
+	}
+
+	.section3__body {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.section3__text {
+		text-align: center;
+	}
+}

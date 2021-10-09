@@ -1,0 +1,66 @@
+.myColor {
+	background-color: #ffccdd;
+}
+
+.section2__body {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.section2__row {
+	display: flex;
+	margin: 0 -30px;
+}
+
+.section2__column {
+	padding: 0 30px;
+}
+
+.section2__image {
+	max-width: 250px;
+	border-radius: 20px;
+	box-shadow: 2px 1px 15px 0px #ffffff;
+	object-fit: cover;
+}
+
+.section2__text {
+	line-height: 1.2;
+	text-shadow: 1px 1px 3px #fff;
+}
+
+.section2__button {
+	height: 40px;
+	border: none;
+	background-color: #a3274c;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 16px;
+	padding: 0 20px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.3s;
+	box-shadow: 2px 1px 15px 0px #ffffff;
+}
+
+.section2__button:hover {
+	background-color: #691f35;
+}
+
+@media (max-width: 767px) {
+	.section2__body {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.section2__row {
+		display: block;
+		text-align: center;
+	}
+
+	.section2__button {
+		margin: 0 auto;
+	}
+}
