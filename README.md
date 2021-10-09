@@ -1,6 +1,6 @@
 # Weronika & Karolina
 
-![Our photo](https://i.ibb.co/ZgFmmFB/W-K.jpg)
+![Our photo](https://i.ibb.co/bR4YG6x/W-K.jpg)
 
 ## Demo
 https://vov4ukz53.github.io/homepage/
@@ -14,7 +14,7 @@ https://vov4ukz53.github.io/homepage/
 
 ## Information
 
-On this website you will learn a little information about my daughters.
+On this website you will learn a little information about **my daughters**.
 
 ## How to use
 
