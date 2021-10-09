@@ -17,4 +17,4 @@ On this website you will learn a little information about my daughters.
 
 ## How to use
 
-![](https://i.ibb.co/7R3BCD3/Animation.gif)
+![How to use](https://i.ibb.co/JdYmSnj/Animation1.gif)
