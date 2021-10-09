@@ -1,6 +1,6 @@
 # Weronika & Karolina
 
-![Our photo](https://i.ibb.co/ZgFmmFB/W-K.jpg)
+![Our photo](https://i.ibb.co/bR4YG6x/W-K.jpg)
 
 ## Demo
 https://vov4ukz53.github.io/homepage/
