@@ -1,12 +1,25 @@
+{
+	const welcome = () => {
+		console.log("Witam serdecznie wszystkich developerow")
+	}
 
-let sectionBody = document.querySelector(".js-section-2");
-let colorButton = document.querySelector(".js-section2-button");
+	const toggleBackground = () => {
+		const sectionBody = document.querySelector(".js-section-2");
+		const nextColorName = document.querySelector(".js-nextColorName");
+		
+		sectionBody.classList.toggle("myColor");
+		nextColorName.innerText = sectionBody.classList.contains("myColor") ? "Różowy" : "Mój kolor";
+	};
 
-colorButton.addEventListener("click", () => {
-	sectionBody.classList.toggle("myColor");
-	colorButton.classList.toggle("active");
+	const init = () => {
+		const colorButton = document.querySelector(".js-section2-button");	
+		colorButton.addEventListener("click", toggleBackground);	
 
-	colorButton.innerText = colorButton.classList.contains("active") ? "Różowy" : "Mój kolor";
-});
+		welcome();
+	}
+
+	init();
+}
+
 
 
