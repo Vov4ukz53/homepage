@@ -8,8 +8,9 @@ https://vov4ukz53.github.io/homepage/
 ## Used Technologies:
 - HTML5
 - BEM
+- Flexbox
 - CSS
-- JavaScript/ECM6
+- JavaScript/ES6+ Features
 
 ## Information
 
