@@ -19,3 +19,7 @@ On this website you will learn a little information about **my daughters**.
 ## How to use
 
 ![How to use](https://i.ibb.co/JdYmSnj/Animation1.gif)
+
+## Mobile version
+
+![Mobile version](https://i.ibb.co/QP7BPpS/mobile.gif)
