@@ -22,4 +22,4 @@ On this website you will learn a little information about **my daughters**.
 
 ## Mobile version
 
-![Mobile version](https://i.ibb.co/QP7BPpS/mobile.gif)
+![Mobile version](https://i.ibb.co/0n2HB2V/mobile.gif)
